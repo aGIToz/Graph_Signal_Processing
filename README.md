@@ -1,4 +1,5 @@
 # Graph_Processing
+- It is recommended to read the notebooks here.
 Primal Dual algo on graphs 
 
 
