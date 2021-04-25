@@ -130,3 +130,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+data/3d_signal.ply
+data/ele_nonsymm_unw_largek.pt
+data/girl_on_skate.ply
