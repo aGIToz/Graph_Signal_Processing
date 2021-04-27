@@ -1,6 +1,8 @@
-# Graph_Processing
-- It is recommended to read the notebooks here.
-Primal Dual algo on graphs 
+#
+
+# Graph_Signal_Processing
+- This project implements *Total Variation* and *Tikhonov* regularization on graphs to process pointclouds.
+- It is recommended to render the notebooks here.
 
 
 # Installation
@@ -15,7 +17,7 @@ $ conda install -c pytorch faiss-gpu cudatoolkit=10.2
 ```
 - You may need to change the cudatookit version. More details on above step are [here](https://pytorch.org/get-started/locally/) and [here](https://github.com/facebookresearch/faiss/blob/master/INSTALL.md).
 - The next steps are tricky and important.
-- Install torch_geometric **inside the conda environment using the pip command Not the `conda install` command**. Just follow the steps here.
+- Install torch_geometric **inside the conda environment using the pip command Not the `conda install` command**. Just follow the steps [here](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html).
 - To render the pointcloud one needs open3d. Again, it is recommended to install open3d using the pip command **Not** the `conda-install` command.
 ```
 $ pip install open3d
