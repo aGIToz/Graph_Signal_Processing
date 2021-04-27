@@ -1,7 +1,9 @@
-#
+
+<img src="./data/out_shape.png" alt="shape_processing" width="256" height="412"><img src="./data/out_color.png" alt="shape_processing" width="256" height="412">
 
 # Graph_Signal_Processing
 - This project implements *Total Variation* and *Tikhonov* regularization on graphs to process pointclouds.
+- It uses `torch_geometric` for fast processing on gpu.
 - It is recommended to render the notebooks here.
 
 
