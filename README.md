@@ -4,7 +4,7 @@
 # Graph_Signal_Processing
 - This project implements *Total Variation* and *Tikhonov* regularization on graphs to process pointclouds.
 - It uses `torch_geometric` for fast processing on gpu.
-- It is recommended to render the notebooks here.
+- It is recommended to [render the notebooks here](www.example.com).
 
 
 # Installation
