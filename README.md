@@ -22,7 +22,7 @@ $ conda install -c pytorch faiss-gpu cudatoolkit=10.2
 - Install torch_geometric **inside the conda environment using the pip command, Not the `conda install` command**. Just follow the steps [here](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html).
 - To render the pointcloud one needs open3d. Again, it is recommended to install open3d using the pip command **Not** the `conda-install` command.
 ```
-$ pip install open3d
+(base) $ pip install open3d
 ```
 
 
