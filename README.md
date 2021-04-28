@@ -24,6 +24,3 @@ $ conda install -c pytorch faiss-gpu cudatoolkit=10.2
 ```
 (base) $ pip install open3d
 ```
-
-
-# Mention all the relevant details
