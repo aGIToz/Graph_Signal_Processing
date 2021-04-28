@@ -3,6 +3,7 @@
 
 # Graph_Signal_Processing
 - This project implements *Total Variation* and *Tikhonov* regularization on graphs to process pointclouds.
+- <img src="https://latex.codecogs.com/gif.latex?f^{*}&space;=&space;\underset{f}{\arg\min}&space;\&space;\tfrac{1}{2}\|f-f_0\|^2&space;&plus;&space;\lambda&space;\|\nabla_\omega&space;f\|_{1,p}^{q}" title="f^{*} = \underset{f}{\arg\min} \ \tfrac{1}{2}\|f-f_0\|^2 + \lambda \|\nabla_\omega f\|_{1,p}^{q}" />
 - It uses `torch_geometric` for fast processing on gpu.
 - It is recommended to [render the notebooks here](www.example.com).
 
