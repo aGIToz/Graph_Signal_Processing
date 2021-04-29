@@ -25,3 +25,17 @@
 ```
 (base) $ pip install open3d
 ```
+# Cite
+- The *Primal-Dual* algo implemented in this repo is the same as the one used to produce the results in the Section2 of [this paper](https://arxiv.org/abs/2103.16337).
+- The paper argues that some variational-methods can be formulated as a Message Passing Networks which allows the use of graph machine learning libraries (like *torch_geo*, *dgl*) to solve inverse problems on graphs.
+```latex
+@misc{azad2021variational,
+      title={Variational models for signal processing with Graph Neural Networks}, 
+      author={Amitoz Azad and Julien Rabin and Abderrahim Elmoataz},
+      year={2021},
+      eprint={2103.16337},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
