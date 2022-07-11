@@ -1,6 +1,12 @@
 
 <img src="./data/out_shape.png" alt="shape_processing" width="256" height="412"><img src="./data/out_color.png" alt="shape_processing" width="256" height="412">
 
+# Real world examples:
+The following are the examples of denoising on real-world scans of Monument a Napoleon (Cherbourg) and Niki's serpent. First, non-squared data fidelity is used to remove the strong spatial outliers, and then isotropic TV filtering is used on the color channels. The time taken to process Napoleon pointcloud (500k points) is 37 seconds on NVIDIA 1080Ti.
+![image](https://user-images.githubusercontent.com/38216671/178206254-101257c8-350f-4c9a-8c51-33ae21da8475.png)
+![image](https://user-images.githubusercontent.com/38216671/178206907-d0b7cfd4-b7e9-4b65-bdff-cc2b5670b7cf.png)
+![image](https://user-images.githubusercontent.com/38216671/178206752-62d66fdc-f737-4213-b85e-2c808205cd0b.png)
+
 # Graph_Signal_Processing
 - This project implements *Total Variation* and *Tikhonov* regularization on graphs to process pointclouds.
 - <img src="https://latex.codecogs.com/gif.latex?f^{*}&space;=&space;\underset{f}{\arg\min}&space;\&space;\tfrac{1}{2}\|f-f_0\|^2&space;&plus;&space;\lambda&space;\|\nabla_\omega&space;f\|_{1,p}^{q}" title="f^{*} = \underset{f}{\arg\min} \ \tfrac{1}{2}\|f-f_0\|^2 + \lambda \|\nabla_\omega f\|_{1,p}^{q}" />
